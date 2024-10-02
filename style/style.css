@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+:root {
+    --cor-principal: #4B0082;
+    --cor-secundaria: white;
+    --cor-sessao: #000;
+    --cor-footer: rgba(6, 6, 212, 0.918);
+}
+
+body {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    color: #555555;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+
+.top-info {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Menu */
+.navbar {
+    background-color: #4B0082;
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Fim do menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/*Carrosel*/
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    width: 1280px;
+    height: 420px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.carousel img.active {
+    display: block;
+}
+
+/*Paragrafo*/
+.tituloE {
+    align-items: center;
+    text-align: center;
+    text-decoration: solid;
+}
+
+/*Estilo paragrafo*/
+p:first-child {
+    color: blue;
+    }
+
+/*Minha lista*/
+.mylist li:first-child {
+    background: greenyellow;
+    }
+    .mylist li:nth-child(3) {
+    background: grey;
+    }
+    .mylist li:last-child {
+    background: yellow;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+       }
+       a:hover {
+        color: red;
+       }
+       a:active {
+        color: green;
+       }   
+    
+    .container {
+        width: 80%;
+        margin: auto;
+       }
+
+/*botao*/
+.btn {
+    background-color: black;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+   }
+   .btn:hover {
+    background: red;
+    color: #FFF;
+   }
+
+/*categorias*/   
+    .categorias {
+        margin-top: 20px;
+        border: 1px gray solid;
+        padding: 10px;
+        border-radius: 15px;
+       }
+       .categorias h2 {
+        text-align: center;
+       }
+       .categorias ul {
+        padding: 15px;
+        list-style: none;
+       }
+       .categorias li {
+        padding-bottom: 8px;
+        border-bottom: dashed 1px #333;
+       }   
+
+/*Elemento rodapé*/
+/*footer*/
+
+.footer-text {
+    color: white; /* branco */
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
